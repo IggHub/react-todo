@@ -16,17 +16,22 @@ class LifeCycleApp extends React.Component{
   }
   componentWillMount(){
     console.log('componentWillMount');
+    this.setState({
+      m: 2
+    })
   }
   componentDidMount(){
     console.log('componentDidMount!');
+    this.inc= setInterval(this.update, 1000)
   }
   componentWillUnmount(){
     console.log('componentWillUnmount');
+    clearInterval(this.inc);
   }
   render(){
     console.log('render!');
     return(
-      <button onClick={this.update}>Val: {this.state.val}</button>
+      <button onClick={this.update}>Val: {this.state.val * this.state.m}</button>
     )
   }
 }
