@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+/*
 import App from './App';
 import ButtonApp from './Button';
 import TitleApp from './Title';
 import SyntheticEventApp from './SyntheticEvent';
 import RefApp from './Ref';
+*/
+import Wrapper from './LifeCycle';
 
-ReactDOM.render(<RefApp />, document.getElementById('root'))
+ReactDOM.render(<Wrapper />, document.getElementById('root'))
