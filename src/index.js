@@ -4,5 +4,6 @@ import App from './App';
 import ButtonApp from './Button';
 import TitleApp from './Title';
 import SyntheticEventApp from './SyntheticEvent';
+import RefApp from './Ref';
 
-ReactDOM.render(<SyntheticEventApp />, document.getElementById('root'))
+ReactDOM.render(<RefApp />, document.getElementById('root'))
