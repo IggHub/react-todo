@@ -7,7 +7,8 @@ import TitleApp from './Title';
 import SyntheticEventApp from './SyntheticEvent';
 import RefApp from './Ref';
 import Wrapper from './LifeCycle';
+import NewPropApp from './NewProps';
 */
-import NewPropApp from './NewProps.js';
+import MapApp from './Map';
 
-ReactDOM.render(<NewPropApp />, document.getElementById('root'))
+ReactDOM.render(<MapApp />, document.getElementById('root'))
