@@ -8,7 +8,8 @@ import SyntheticEventApp from './SyntheticEvent';
 import RefApp from './Ref';
 import Wrapper from './LifeCycle';
 import NewPropApp from './NewProps';
-*/
 import MapApp from './Map';
+*/
+import HigherOrderComponentApp from './HigherOrderComponents';
 
-ReactDOM.render(<MapApp />, document.getElementById('root'))
+ReactDOM.render(<HigherOrderComponentApp />, document.getElementById('root'))
