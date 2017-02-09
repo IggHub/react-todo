@@ -6,7 +6,8 @@ import ButtonApp from './Button';
 import TitleApp from './Title';
 import SyntheticEventApp from './SyntheticEvent';
 import RefApp from './Ref';
-*/
 import Wrapper from './LifeCycle';
+*/
+import NewPropApp from './NewProps.js';
 
-ReactDOM.render(<Wrapper />, document.getElementById('root'))
+ReactDOM.render(<NewPropApp />, document.getElementById('root'))
