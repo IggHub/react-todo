@@ -12,7 +12,8 @@ import MapApp from './Map';
 import HigherOrderComponentApp from './HigherOrderComponents';
 import JSXContainer from './JSXContainer';
 import Children from './Children';
-*/
 import CloneApp from './Clone';
+*/
+import ReusableApp from './Reusable';
 
-ReactDOM.render(<CloneApp />, document.getElementById('root'))
+ReactDOM.render(<ReusableApp />, document.getElementById('root'))
