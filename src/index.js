@@ -9,7 +9,8 @@ import RefApp from './Ref';
 import Wrapper from './LifeCycle';
 import NewPropApp from './NewProps';
 import MapApp from './Map';
-*/
 import HigherOrderComponentApp from './HigherOrderComponents';
+*/
+import JSXContainer from './JSXContainer';
 
-ReactDOM.render(<HigherOrderComponentApp />, document.getElementById('root'))
+ReactDOM.render(<JSXContainer />, document.getElementById('root'))
