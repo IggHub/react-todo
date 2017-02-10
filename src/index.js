@@ -11,7 +11,8 @@ import NewPropApp from './NewProps';
 import MapApp from './Map';
 import HigherOrderComponentApp from './HigherOrderComponents';
 import JSXContainer from './JSXContainer';
-*/
 import Children from './Children';
+*/
+import CloneApp from './Clone';
 
-ReactDOM.render(<Children />, document.getElementById('root'))
+ReactDOM.render(<CloneApp />, document.getElementById('root'))
